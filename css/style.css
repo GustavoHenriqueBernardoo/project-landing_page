@@ -1,31 +1,113 @@
-html, body {
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* html, body {
     /* padding: 0px;
     margin:0px;
     border:0px;
-    */
-} 
+}
+*/
 
-body {
+body, button {
     display:flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    color:#F9FAF8;
+    background-color: #1F2937;
+}
+ul, .subtext {
+    color: #E5E7EB;
+    font-size:18px;
+}
+.header, .middle, .container-body, .quote, .bottom {
+    border: 2px solid black;
+    
 }
 
-/* .header, .middle, .body, .quote, .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-} */
-
 .header {
+    color:white;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    padding: 15px;
+    padding-right: 100px;
+    padding-left: 135px;
+    
+    
+}
+.logo {
+    
+    font-weight:bold;
+    padding-left:70px;
+    font-size: 24px;
+
 }
 ul {
     display: flex;
     list-style-type: none;
-    gap:15px;
+    gap:15;
 
 }
 
+/* BODY -----------------------------------------*/
+
+.container-body {
+    display: flex;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+#sidebar{
+    display: flex;
+    padding: 1em;
+    flex-flow: column wrap;
+    align-items: baseline;
+    padding-left: 200px;
+    width: 400px;
+
+}
+.title-text {
+    font-weight:bold;
+    font-size: 48px;
+    }
+
+#body-image{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.image {
+    
+    border:10px solid black;
+}
+img{
+    width: 500px;
+    height: 300px;
+    /* padding:100px; */
+    padding-right:200px;
+}
+    /* display: flex;
+    border: 40px solid gray;
+    background-color:grey;
+    padding: 10px;
+    margin: 10px; */
+
+button{
+    padding: 4px 20px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+button:hover{
+    background-color:rgb(31, 26, 80);
+}
+
+/* MIDDLE OR INFORMATION SECTION ------------------*/
+.middle {
+    background-color: #1F2937;
+}
+#info {
+    font-size: 36px;
+    font-weight: bold;
+
+}
 
