@@ -1,0 +1,31 @@
+html, body {
+    /* padding: 0px;
+    margin:0px;
+    border:0px;
+    */
+} 
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+/* .header, .middle, .body, .quote, .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.header {
+    display: flex;
+    justify-content:space-around;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+
+}
+
+
