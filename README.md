@@ -16,5 +16,6 @@ Demonstrated skills:
         </ul>
 </ul>
 
+Early Stages of the page:
 ![1](https://user-images.githubusercontent.com/94610311/154508851-d9d4583c-3200-4c13-bf02-f192275b51cd.png)
 ![2](https://user-images.githubusercontent.com/94610311/154508863-6ac58c42-ff6e-4f2f-9eb1-f973b57c870d.png)
